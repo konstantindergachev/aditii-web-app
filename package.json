@@ -13,8 +13,8 @@
     "client-install": "npm install --prefix app/client",
     "start": "node app/server/server.js",
     "server": "nodemon app/server/server.js",
-    "client": "npm run start --prefix app/client",
-    "dev": "concurrently --names \"server,client\" \"npm run start\" \"npm run client\"",
+    "client": "BROWSER=chromium npm run start --prefix app/client",
+    "dev": "concurrently --names \"server,client\" \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix app/client && npm run build --prefix app/client"
   },
   "dependencies": {

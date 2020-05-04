@@ -26,6 +26,7 @@ const NewPage = lazy(() => import('./pages/newpage/NewPage'));
 const BestSellersPage = lazy(() => import('./pages/bestsellerspage/BestSellersPage'));
 const OffersPage = lazy(() => import('./pages/offerspage/OffersPage'));
 const ComingSoonPage = lazy(() => import('./pages/comingsoonpage/ComingSoonPage'));
+const PageNotFound = lazy(() => import('./components/page-not-found/PageNotFound'));
 
 class App extends Component {
   state = {
@@ -127,6 +128,7 @@ class App extends Component {
               <Route exact path="/best_sellers" component={BestSellersPage} />
               <Route exact path="/special_offers" component={OffersPage} />
               <Route exact path="/coming_soon" component={ComingSoonPage} />
+              <Route render={(props) => <PageNotFound {...props} />} />
             </Switch>
             <Footer />
           </div>
