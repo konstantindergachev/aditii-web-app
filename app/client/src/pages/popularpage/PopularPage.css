@@ -1,0 +1,32 @@
+.popular {
+  flex: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popular__wrapper {
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.popular__img {
+  max-width: 400px;
+}
+.popular__description {
+  max-width: 600px;
+  text-indent: 15px;
+  text-align: justify;
+}
+
+.popular__sold {
+  font-weight: 700;
+}
+
+.popular__sold span {
+  padding: 5px 10px;
+  border-radius: 3px;
+  color: #ffffff;
+  background-color: #ffa500;
+}

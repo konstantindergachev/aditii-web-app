@@ -1,0 +1,37 @@
+.form__control {
+  font-family: inherit;
+  padding: 6px 12px;
+  margin-bottom: 10px;
+  line-height: 1.7;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  overflow: visible;
+  transition: all .3s ease-in-out;
+}
+.form__control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+}
+.form__control-create-dish {
+  margin-top: 20px;
+}
+.form__control-search-dish,
+.form__control-register-admin,
+.form__control-login-admin {
+  margin-bottom: 20px;
+}
+
+.text-muted {
+  margin-bottom: 10px;
+}
+
+.invalid__feedback {
+  color: #ff0000;
+  font-weight: 700;
+}

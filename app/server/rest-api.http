@@ -1,0 +1,67 @@
+GET https://my.api.mockaroo.com/t-shirts.json?key=b8bcf1b0
+###
+GET https://api.deepomatic.com/v0.6/detect/fashion
+###
+GET http://localhost:5000/api/users/test
+###
+GET http://localhost:5000/api/orders/test
+###
+GET http://localhost:5000/api/categories
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkYjJiZmYyYmZjYmIzMGU1N2Q4NWExZSIsIm5hbWUiOiJib2IiLCJpYXQiOjE1NzIwMDIwNTgsImV4cCI6MTU3MjAwNTY1OH0.sU0IZHjC2ZcgtB5QByMSpgPi36oS0ysKpLMj2kbY9KI
+###
+GET http://localhost:5000/api/products/categories
+###
+GET http://localhost:5000/api/categories/category/:1
+###
+GET http://localhost:5000/api/products
+###
+POST http://localhost:5000/api/products/create-category
+Content-Type: application/json
+
+{
+  "name": "vintage"
+}
+###
+POST http://localhost:5000/api/products/create-product
+Content-Type: application/json
+
+{
+    "name": "classic tee shirt",
+    "description": "Classic and comfortable cotton tee with the signature Levi's graphic across the chest. We styled this with our 511™ Slim Fit Men's Jeans. Also available in Men's Big & Tall sizes. Shop our Tee Shirts in Big & Tall.",
+    "price": 23.99,
+    "category": "5e456daa37149a74d51f159c",
+    "shipping": true,
+    "available": true,
+    "sold": 5,
+    "publish": true,
+    "images": [{"publicId": "161", "url": "https://res.cloudinary.com/dm5xwetnp/image/upload/v1584691773/main-product_ni25ay.png"}]
+}
+
+###
+POST http://localhost:5000/api/users/register
+Content-Type: application/json
+
+{
+  "name": "bob",
+  "lastname":"hoskings",
+  "email": "bob@bob.com",
+  "password": "bobbob",
+  "confirmPassword": "bobbob"
+}
+
+###
+POST http://localhost:5000/api/users/login
+Content-Type: application/json
+
+{
+    "email": "tom@tom.com",
+    "password": "tomtom"
+}
+
+# ###
+# POST http://localhost:5000/api/categories/category
+# Authorization: 
+# {
+  
+# }

@@ -1,0 +1,24 @@
+.msg {
+  color: #ffffff;
+  padding: 10px 15px;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+}
+.msg__info {
+  background-color: #008000;
+}
+.msg__warning {
+  background-color: #ffa500;
+}
+.msg__error {
+  background-color: #ff0000;
+}
+
+.auth__info {
+  background-color: #008000;
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  transform: translate(-50%, -2%);
+}

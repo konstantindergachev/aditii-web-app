@@ -1,0 +1,48 @@
+.mobibar {
+  display: none;
+}
+.mobibar__wrap {
+  padding: 0 20px;
+  position: sticky;
+}
+.mobibar__wrap-open {
+  background-color: #4ccfc1;
+  z-index: 1001;
+}
+.mobibar__hamburger {
+  color: #4ccfc1;
+  display: block;
+  font-weight: 400;
+}
+.mobibar__hamburger-closed {
+  display: none;
+}
+.mobibar__hamburger-opened {
+  font-size: 40px;
+  line-height: 100px;
+  color: #ffffff;
+}
+.mobibar__link {
+  color: #ffffff;
+  font-family: "bebas-neue";
+}
+@media only screen and (max-width: 1008px) {
+  .mobibar {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  .mobibar__hamburger-closed {
+    display: block;
+    font-size: 50px;
+    line-height: 100px;
+  }
+  .mobibar__hamburger-closed:after {
+    content: ' \2261';
+  }
+  .mobibar__hamburger-opened:after {
+    content: ' \2573';
+  }
+}

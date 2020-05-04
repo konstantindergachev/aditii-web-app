@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'lobster';
+  src: url('./fonts/Lobster_1.3.otf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bebas-neue';
+  src: url('./fonts/BebasNeue-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open-sans';
+  src: url('./fonts/OpenSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
+html {
+  font-size: 16px;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  font-family: 'open-sans';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.center {
+  max-width: 875px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.price,
+.username {
+  color: #a1a1a1;
+  font-family: "bebas-neue";
+  font-weight: 400;
+}
+
+.title {
+  color: #afafaf;
+  font-family: "bebas-neue";
+  font-size: 27px;
+  line-height: 25px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.current {
+  color: #ffa500;
+}
+
+@media only screen and (max-width: 490px) {
+  .container {
+    overflow-x: hidden;
+  }
+  .title {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}

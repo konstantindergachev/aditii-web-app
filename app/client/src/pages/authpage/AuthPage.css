@@ -1,0 +1,30 @@
+.auth {
+  flex: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.auth__form {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+}
+.auth__title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.auth__check-to-sign-up {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #b1b1b1;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 370px) {
+  .auth__form {
+    margin: 0 10px;
+  }
+}

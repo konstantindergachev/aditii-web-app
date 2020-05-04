@@ -1,0 +1,39 @@
+.information {
+  background-color: #42c6b6;
+  flex: auto;
+}
+.list__wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.list {
+  margin: 42px 0;
+}
+.list__title,
+.list__list,
+.list__list a {
+  color: #ffffff !important;
+}
+
+.list__list,
+.list__list a {
+  text-transform: capitalize;
+  font-family: "open-sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+@media only screen and (max-width: 960px) {
+  .list__wrap {
+    justify-content: space-evenly;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .list {
+    text-align: center;
+    margin: 15px 10px;
+  }
+}

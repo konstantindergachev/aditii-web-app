@@ -1,0 +1,38 @@
+.basket__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-grow: 0.5;
+  margin: 20.5px 0;
+  cursor: default;
+  position: relative;
+}
+.basket__wrap .username {
+  margin-right: 10px;
+}
+.basket__wrap img {
+  cursor: pointer;
+}
+
+.basket__price {
+  font-size: 33px;
+  line-height: 33px;
+}
+.basket__count {
+  position: absolute;
+  top: -10px;
+  right: -12px;
+  background-color: red;
+  color: #ffffff;
+  padding: 2px 8px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 560px) {
+  .basket__wrap {
+    justify-content: center;
+  }
+  .basket__count {
+    right: 12px;
+  }
+}
