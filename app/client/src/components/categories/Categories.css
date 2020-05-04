@@ -3,7 +3,7 @@
 }
 .categories__title {
   width: 100%;
-  background-color: #42c6b6;
+  background-color: var(--main-color);
   color: #ffffff;
   font-family: "bebas-neue";
   font-weight: 400;
@@ -28,7 +28,7 @@
 }
 .category {
   outline: 1px solid #e7e5e5;
-  border-bottom: 4px solid #3cc395;
+  border-bottom: 4px solid var(--second-color);
   padding: 30px;
   margin-bottom: 45px;
   height: 260px;

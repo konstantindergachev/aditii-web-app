@@ -1,5 +1,5 @@
 .slider {
-  background-color: #42c6b6;
+  background-color: var(--main-color);
   height: 445px;
   flex: auto;
   display: flex;

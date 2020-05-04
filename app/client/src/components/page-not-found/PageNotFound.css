@@ -10,5 +10,5 @@
   text-indent: 16px;
   font-weight: 700;
   font-style: italic;
-  color: #ff0000;
+  color: var(--error);
 }

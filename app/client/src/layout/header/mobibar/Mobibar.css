@@ -6,11 +6,11 @@
   position: sticky;
 }
 .mobibar__wrap-open {
-  background-color: #4ccfc1;
+  background-color: var(--second-color);
   z-index: 1001;
 }
 .mobibar__hamburger {
-  color: #4ccfc1;
+  color: var(--second-color);
   display: block;
   font-weight: 400;
 }

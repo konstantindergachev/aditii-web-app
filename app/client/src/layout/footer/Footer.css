@@ -1,5 +1,5 @@
 .footer {
-  background-color: #2da89b;
+  background-color: var(--main-color);
   color: #ffffff;
   font-family: "open-sans";
   font-size: 15px;

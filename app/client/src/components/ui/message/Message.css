@@ -6,17 +6,17 @@
   text-align: center;
 }
 .msg__info {
-  background-color: #008000;
+  background-color: var(--main-color);
 }
 .msg__warning {
-  background-color: #ffa500;
+  background-color: var(--current);
 }
 .msg__error {
-  background-color: #ff0000;
+  background-color: var(--error);
 }
 
 .auth__info {
-  background-color: #008000;
+  background-color: var(--main-color);
   position: absolute;
   top: 2%;
   left: 50%;

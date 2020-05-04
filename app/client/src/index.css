@@ -19,6 +19,13 @@
   font-style: normal;
 }
 
+:root {
+  --main-color: #42c6b6;
+  --second-color: #3cc395;
+  --current: #ffa500;
+  --error: #ff0000;
+}
+
 *,
 *::after,
 *::before {
@@ -80,7 +87,7 @@ body {
 }
 
 .current {
-  color: #ffa500;
+  color: var(--current);
 }
 
 @media only screen and (max-width: 490px) {

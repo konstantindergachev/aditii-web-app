@@ -1,5 +1,5 @@
 .information {
-  background-color: #42c6b6;
+  background-color: var(--main-color);
   flex: auto;
 }
 .list__wrap {
