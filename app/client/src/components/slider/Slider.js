@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Message from '../ui/message/Message';
 import './Slider.css';
 
 const Slider = ({ popularProduct }) => {
@@ -29,12 +28,7 @@ const Slider = ({ popularProduct }) => {
       </section>
     );
   }
-
-  return (
-    <section className="slider">
-      <Message msg="Somethin when wrong. Refresh this page, please! (press Ctrl+R)" classname="msg__error" />
-    </section>
-  );
+  return null;
 };
 
 Slider.propTypes = {
