@@ -17,20 +17,20 @@
   text-transform: uppercase;
   font-weight: 500;
   text-align: right;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 thead {
   text-transform: uppercase;
-  line-height: 48px;
+  line-height: 3rem;
 }
 
 .cart__btn-wrapper {
   font-weight: 500;
   text-align: right;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .cart__btn-wrapper .clear__btn {
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }

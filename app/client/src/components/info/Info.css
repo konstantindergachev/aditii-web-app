@@ -8,7 +8,7 @@
   flex-wrap: wrap;
 }
 .list {
-  margin: 42px 0;
+  margin: 2.625rem 0;
 }
 .list__title,
 .list__list,
@@ -20,9 +20,9 @@
 .list__list a {
   text-transform: capitalize;
   font-family: "open-sans";
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 1.75rem;
 }
 
 @media only screen and (max-width: 960px) {
@@ -34,6 +34,6 @@
 @media only screen and (max-width: 590px) {
   .list {
     text-align: center;
-    margin: 15px 10px;
+    margin: 0.9375rem 0.625rem;
   }
 }

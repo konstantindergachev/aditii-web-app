@@ -3,10 +3,10 @@
   text-align: center;
 }
 .cart__item span {
-  margin: 0 10px;
+  margin: 0 0.625rem;
   cursor: pointer;
   transition: all 0.3s ease-in;
-  padding: 0 5px;
+  padding: 0 0.3125rem;
 }
 .cart__item span:hover {
   color: #ffffff;
@@ -24,7 +24,7 @@
 .cart__item .cart__remove-btn {
   cursor: pointer;
   display: inline-block;
-  padding: 5px 10px;
+  padding: 0.3125rem 0.625rem;
   color: #bd3127;
   background-color: #ffffff;
   transition: all 0.3s ease-in;

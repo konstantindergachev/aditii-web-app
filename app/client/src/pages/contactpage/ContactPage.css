@@ -9,19 +9,19 @@
 .contacts__map {
   outline: 1px solid #e7e5e5;
   border-bottom: 4px solid var(--second-color);
-  padding: 30px;
+  padding: 1.875rem;
 }
 .contacts__list {
-  font-size: 17px;
-  line-height: 28px;
+  font-size: 1.0625rem;
+  line-height: 1.75rem;
   letter-spacing: 0.3px;
 }
 .contacts__item span {
   font-weight: 700;
 }
 .contacts__map {
-  width: 600px;
-  height: 450px;
+  width: 37.5rem;
+  height: 28.125rem;
 }
 @media only screen and (max-width: 1008px) {
   .contacts {
@@ -33,25 +33,25 @@
 }
 @media only screen and (max-width: 690px) {
   .contacts__map {
-    width: 450px;
+    width: 28.125rem;
   }
 }
 @media only screen and (max-width: 490px) {
   .contacts__list {
-    padding: 10px;
+    padding: 0.625rem;
   }
   .contacts__map {
-    width: 350px;
-    height: 350px;
+    width: 21.875rem;
+    height: 21.875rem;
   }
   .contacts__item {
-    font-size: 12px;
-    line-height: 22px;
+    font-size: 0.75rem;
+    line-height: 1.375rem;
   }
 }
 @media only screen and (max-width: 350px) {
   .contacts__map {
-    width: 250px;
-    height: 250px;
+    width: 15.625rem;
+    height: 15.625rem;
   }
 }

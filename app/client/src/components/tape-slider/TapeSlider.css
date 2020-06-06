@@ -1,6 +1,6 @@
 .tape-slider {
   position: relative;
-  height: 190px;
+  height: 11.875rem;
   flex: auto;
 }
 .slick-slider,
@@ -38,7 +38,7 @@
 }
 .tape-slider__img {
   width: 80%;
-  height: 85px;
+  height: 5.3125rem;
   grid-area: tape-img;
 }
 .tape-slider__title {
@@ -49,7 +49,7 @@
 
 .slick-arrow {
   cursor: pointer;
-  font-size: 24px;
+  font-size: 1.5rem;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);

@@ -1,6 +1,6 @@
 .slider {
   background-color: var(--main-color);
-  height: 445px;
+  height: 27.8125rem;
   flex: auto;
   display: flex;
   align-items: center;
@@ -13,33 +13,33 @@
   justify-content: space-between;
 }
 .slider__left {
-  max-width: 278px;
+  max-width: 17.375rem;
   width: 100%;
-  height: 325px;
+  height: 20.3125rem;
   position: relative;
 }
 
 .slider__right {
   width: 41.5%;
-  height: 325px;
+  height: 20.3125rem;
 }
 
 .slider__title {
   color: #ffffff;
   font-family: "bebas-neue";
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: 400;
-  line-height: 100px;
+  line-height: 6.25rem;
   word-wrap: break-word;
 }
 
 .slider__text {
   color: #ffffff;
   font-family: "open-sans";
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 400;
-  line-height: 28px;
-  margin-bottom: 20px;
+  line-height: 1.75rem;
+  margin-bottom: 1.25rem;
 }
 
 .t-shirt {
@@ -51,8 +51,8 @@
     justify-content: space-around;
   }
   .slider__title {
-    font-size: 45px;
-    line-height: 40px;
+    font-size: 2.8125rem;
+    line-height: 2.5rem;
   }
 }
 @media only screen and (max-width: 690px) {
@@ -81,18 +81,18 @@
     text-align: center;
   }
   .slider__title {
-    font-size: 45px;
-    line-height: 40px;
+    font-size: 2.8125rem;
+    line-height: 2.5rem;
   }
   .slider__text {
-    padding: 0 15px;
-    margin-bottom: 10px;
+    padding: 0 0.9375rem;
+    margin-bottom: 0.625rem;
   }
 }
 
 @media only screen and (max-width: 490px) {
   .slider__text {
-    line-height: 25px;
+    line-height: 1.5625rem;
   }
 }
 @media only screen and (max-width: 390px) {
@@ -100,7 +100,7 @@
     width: 50%;
   }
   .slider__title {
-    font-size: 30px;
-    line-height: 27px;
+    font-size: 1.875rem;
+    line-height: 1.6875rem;
   }
 }

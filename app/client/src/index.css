@@ -36,7 +36,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 a,
@@ -57,7 +57,7 @@ body {
 }
 
 .container {
-  max-width: 1280px;
+  max-width: 80rem;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -65,7 +65,7 @@ body {
 }
 
 .center {
-  max-width: 875px;
+  max-width: 54.6875rem;
   width: 100%;
   margin: 0 auto;
 }
@@ -80,10 +80,10 @@ body {
 .title {
   color: #afafaf;
   font-family: "bebas-neue";
-  font-size: 27px;
-  line-height: 25px;
+  font-size: 1.6875rem;
+  line-height: 1.5625rem;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .current {
@@ -95,7 +95,7 @@ body {
     overflow-x: hidden;
   }
   .title {
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
   }
 }

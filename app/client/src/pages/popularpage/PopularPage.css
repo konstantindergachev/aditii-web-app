@@ -12,11 +12,11 @@
   justify-content: space-evenly;
 }
 .popular__img {
-  max-width: 400px;
+  max-width: 25rem;
 }
 .popular__description {
-  max-width: 600px;
-  text-indent: 15px;
+  max-width: 37.5rem;
+  text-indent: 0.9375rem;
   text-align: justify;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .popular__sold span {
-  padding: 5px 10px;
+  padding: 0.3125rem 0.625rem;
   border-radius: 3px;
   color: #ffffff;
   background-color: var(--current);

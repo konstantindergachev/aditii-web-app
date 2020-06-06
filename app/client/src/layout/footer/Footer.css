@@ -2,14 +2,14 @@
   background-color: var(--main-color);
   color: #ffffff;
   font-family: "open-sans";
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 400;
-  line-height: 46px;
+  line-height: 2.875rem;
   text-align: center;
   flex-shrink: 0;
 }
 @media only screen and (max-width: 290px) {
   .footer {
-    line-height: 30px;
+    line-height: 1.875rem;
   }
 }
