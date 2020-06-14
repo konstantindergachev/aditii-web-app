@@ -44,6 +44,7 @@ class App extends Component {
   };
   static getDerivedStateFromProps(props, state) {
     const { user, carts } = props;
+    //TODO: optimize this logic
     if (!Object.keys(user).length) {
       const products = saveProductsToAppState(props, state);
       return {
